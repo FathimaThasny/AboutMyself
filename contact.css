@@ -1,0 +1,42 @@
+/* contact */
+
+.form{
+    padding: 150px 0px 150px 0px;
+    text-align: left;
+}
+
+.form h1{
+    color: brown;
+    font-weight: bolder;
+    text-align: center;
+}
+
+form{
+    margin-top: 90px;
+    margin-left: 400px;
+    padding: 20px 10px 10px 10px; 
+}
+
+form input{
+    width: 60%;
+    height: 30px;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(44, 41, 41);
+}
+
+textarea{
+    width: 60%;
+    height: 70px;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(44, 41, 41); 
+}
+
+
+#submit{
+    background-color: blue;
+    color: white;
+    margin-left: 25%;
+    width: 12%;
+    height: 40px;
+    border-radius: 50px;
+}

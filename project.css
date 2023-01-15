@@ -1,0 +1,47 @@
+
+.containerproject{
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.leftbox{
+    flex: 2;
+    background-color:rgb(164, 223, 100);
+    padding-top: 100px;
+}
+
+.leftbox h2{
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+}
+
+.leftbox ul{
+    margin-left: 100px;
+}
+
+
+.containerproject  li{
+   font-weight: bold;
+    text-decoration: underline;
+}
+
+.rightbox{
+    flex: 2;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(220, 213, 113);
+    height: 600px;
+}
+
+.rightbox h2{
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+}
+
+.rightbox ul{
+    margin-left: 100px;
+}

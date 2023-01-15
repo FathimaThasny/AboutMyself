@@ -1,0 +1,50 @@
+
+.sidebar{
+    text-justify: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(179, 49, 23);
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.container{
+    height: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.container-image{
+    flex: 2;
+    padding-top: 5%;
+}
+
+.container-image img{
+    width: 50%;
+    margin-left: 150px;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container-content{
+    padding-top: 10%;
+    margin-right: 150px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-content h1{
+    color: brown;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.container-content h2{
+    margin-left: 30px;
+}
