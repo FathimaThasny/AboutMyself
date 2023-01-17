@@ -48,3 +48,24 @@
 .container-content h2{
     margin-left: 30px;
 }
+
+.navigation2{
+    float: right;
+    display: flex;
+}
+
+.navigation2 > a{
+    color: rgb(246, 239, 238);
+    padding: 5px;
+    margin-left: 30px;
+    text-decoration: none;
+    transition:0.7s ease-in;
+    border: 2px rgb(222, 235, 235) solid;
+    background-color: rgb(154, 46, 32);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation2 > a:hover{
+    background-color: rgb(240, 233, 233);
+    color: rgb(194, 51, 51);
+}
